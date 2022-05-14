@@ -1,0 +1,17 @@
+.button-calc{
+    background-color: #c2cadb;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: large;
+}
+
+.button-calc:hover{
+    background-color: #092e79;
+    color: white;
+    border: none;
+}
