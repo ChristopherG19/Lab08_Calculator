@@ -3,7 +3,7 @@ import './Calculator.css'
 import ButtonsCal from './Button'
 
 const buttons = ["AC", "DEL", "/", "X", "1", "2", "3", "-", "4", "5", "6", "+", "7", "8", "9", "0"]
-const equal = "="
+const equal = "=" 
 
 const Calcu = () => {
 
