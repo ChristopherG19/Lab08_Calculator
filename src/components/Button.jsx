@@ -1,12 +1,11 @@
 import './Button.css'
 
-const ButtonsCal = ({ info }) => {
-    return (
-        <button className='button-calc'>
-            {info}
-        </button>
-    )
+const ButtonsCal = ({ info, click }) => {
+	return (
+		<div className='button-calc' onClick={click}>
+			{info}
+		</div>
+	)
 }
-
 
 export default ButtonsCal
