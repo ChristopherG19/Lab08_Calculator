@@ -2,14 +2,14 @@
     background: #282c34;
     height: 55%;
     display: grid;
-    grid-template-rows: repeat(4, 75px);
+    grid-template-rows: repeat(4, 55px);
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 15px;
     overflow: hidden;
     color: #000;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 0px 20px;
 }
 
 .calcuBack{
@@ -35,13 +35,13 @@
 
 .displayT{
     width: 100%;
-    height: 15%;
+    height: 20%;
     background: #c2cadb;
     color: #000;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    align-items:inherit;
+    align-items:flex-end;
     font-size:xx-large;
     margin-bottom: 25px;
 }
@@ -50,6 +50,6 @@
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 70px;
+    height: 60px;
     font-size: large;
 }
