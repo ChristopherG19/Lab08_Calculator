@@ -1,8 +1,10 @@
 import React from 'react'
 import './Button.css'
 
-const ButtonsCal = ({ info, click, className }) => (
-  <button className={className} onClick={click} type="button">
+const ButtonsCal = ({
+  className, titleB, info, click,
+}) => (
+  <button className={className} title={titleB} onClick={click} type="button">
     {info}
   </button>
 )

@@ -36,13 +36,15 @@ const Calcu = () => {
 
   return (
     <div className="calcuBack">
-      <div className="displayT">
+      <div className="displayT" title="Displa">
         {operationText}
       </div>
       <div className="gridButtons">
         {buttons.map((element, index) => (
           <ButtonsCal
             key={index}
+            className={element === '0' ? 'button-calc span2' : 'button-calc'}
+            title={element}
             info={element}
             click={() => {
               if (element === 'C') {
@@ -63,7 +65,6 @@ const Calcu = () => {
                 setOperationText(operationText + element)
               }
             }}
-            className={element === '0' ? 'button-calc span2' : 'button-calc'}
           />
         ))}
       </div>
