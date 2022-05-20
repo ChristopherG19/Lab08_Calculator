@@ -1,10 +1,10 @@
 .gridButtons{
     background: #282c34;
-    height: 55%;
+    height: 70%;
     display: grid;
-    grid-template-rows: repeat(4, 55px);
+    grid-template-rows: repeat(5, 60px);
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
+    grid-gap: 10px;
     overflow: hidden;
     color: #000;
     justify-content: center;
@@ -47,7 +47,6 @@
 }
 
 .equal{
-    padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
     height: 60px;
